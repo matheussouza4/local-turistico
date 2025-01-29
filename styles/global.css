@@ -8,8 +8,10 @@
   --text-headline: #e1624f;
 
   --accent-blue: #0c51a7;
-  --accent-orange: #e5245e;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
   --accent-purple: #591b98;
+
 
   --font-family: "Open Sans", serif;
 
@@ -25,4 +27,125 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font: var(--paragraph);
+  color: var(--text-secondary);
+  background-color: var(--background-default);
+}
+
+h1, h2, h3, h4 {
+  font: inherit;
+}
+
+.headline {
+  color: var(--text-headline);
+  font: var(--headline);
+  text-transform: uppercase;
+}
+
+#page {
+  width: 1280px;
+  margin: 40px auto;
+  padding-inline: 80px;
+
+  #title {
+    margin-top: 8px;
+    margin-bottom: 40px;
+
+    & h1 {
+      font: var(--h1);
+      color: var(--text-primary);
+    }
+  }
+
+  #description {
+    img {
+      height: 660px;
+      margin-bottom: 24px;
+    }
+
+    figcaption {
+      font: var(--subtitle);
+      text-align: center;
+    }
+  }
+
+  & main {
+    padding-top: 24px;
+
+    & #title-list h2 {
+      font: var(--h2);
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    & #list {
+      margin-top: 64px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      & .card-travel {
+        & img {
+          height: 350px;
+        }
+
+        & h3 {
+          font: var(--h3);
+          color: var(--text-primary);
+          margin-top: 20px;
+          margin-bottom: 8px;
+        }
+
+        & p {
+          margin-bottom: 32px;
+        }
+      }
+    }
+  }
+
+  & footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--border-primary);
+  margin-block: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+.text-strong {
+  font-weight: bold;
+}
+
+.text-blue {
+  color: var(--accent-blue);
+}
+
+.text-orange {
+  color: var(--accent-orange);
+}
+
+.text-purple {
+  color: var(--accent-purple);
+}
+
+.text-pink {
+  color: var(--accent-pink);
 }
