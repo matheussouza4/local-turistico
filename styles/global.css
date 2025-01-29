@@ -1,3 +1,17 @@
+:root {
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+
+  --accent-blue: #0c51a7;
+  --accent-orange: #e5245e;
+  --accent-purple: #591b98;
+}
+
 * {
   padding: 0;
   margin: 0;
