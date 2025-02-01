@@ -6,7 +6,7 @@ Este projeto é um desafio proposto pelo curso Fullstack com JavaScript da [`@Ro
 
 <table align="center">
 <tr>
-  <td><a href=""><strong>Link</strong> do figma</a></td>
+  <td><a href="https://www.figma.com/community/file/1384542229391733447/local-turistico">Acesse o <strong>link</strong> do Figma aqui</a></td>
 </tr>
 </table>
 
